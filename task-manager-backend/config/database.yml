@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: labber
+  password: labber
+  host: localhost
+
+development:
+  <<: *default
+  database: task_manager_development
+
+test:
+  <<: *default
+  database: task_manager_test
+
+production:
+  <<: *default
+  database: task_manager_production
+  username: task_manager_user
+  password: <%= ENV['TASK_MANAGER_DATABASE_PASSWORD'] %>

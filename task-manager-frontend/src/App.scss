@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: center; 
+  min-height: 100vh; 
+  text-align: center;
+  background-color: rgb(230, 234, 233);
+
+  .App-header {
+    background-color: #045783;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    
+  }
+
+  .task-container {
+    width: 80%;
+    max-width: 1200px; 
+    padding-top: 200px; 
+    box-sizing: border-box; 
+    background-color: rgb(251, 255, 254);
+
+    
+    .task-form-container{
+      margin-top: 60px;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+.task-list__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  max-width: 800px;
+  box-sizing: border-box;
+}
+
+.task-list__item input[type="checkbox"] {
+  transform: scale(1.5);        
+  margin-right: 20px;           
+}
+
+.task-list__item h1 {
+  font-size: 1.4rem;
+  margin: 0;
+  flex-grow: 0;
+  min-width: 150px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;           
+}
+
+.task-edit-input {
+  width: 80%;                
+  padding: 15px;              
+  font-size: 1.5rem;            
+  border: 1px solid #ccc;       
+  border-radius: 5px;           
+  margin-bottom: 10px;          
+  box-sizing: border-box;       
+}
+
+
+.button-container {
+  margin-left: auto;               
+  display: flex;                   
+  gap: 10px;                       
+  align-items: center;            
+}
+
+.edit-save-button {
+  display: flex;
+  align-items: center;
+}
+
+.edit-save-button button {
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #045783;
+  color: white;
+  border-radius: 5px;
+}
+
+.delete-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.delete-button span {
+  font-size: 1.5rem;
+  color: #e74c3c;
+  cursor: pointer;
+}
+
+.delete-button span:hover {
+  color: #c0392b;
+}
