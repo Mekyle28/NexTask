@@ -10,8 +10,6 @@ A simple task manager application built using **React**, **Redux**, and a **Ruby
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
